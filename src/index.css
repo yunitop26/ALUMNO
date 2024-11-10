@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --pastel-blue: #E3F2FD;
+  --pastel-green: #E8F5E9;
+  --pastel-red: #FFEBEE;
+  --pastel-yellow: #FFF8E1;
+  --pastel-purple: #F3E5F5;
+  --academic-primary: #1A237E;
+  --academic-secondary: #0D47A1;
+}
+
+body {
+  background-color: #F5F7FA;
+}
+
+.academic-gradient {
+  background: linear-gradient(135deg, var(--academic-primary), var(--academic-secondary));
+}
